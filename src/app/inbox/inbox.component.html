@@ -1,0 +1,7 @@
+<h1>EMAIL</h1>
+<ul>
+    <li *ngFor = "let inbox of inbox$">
+        <a  routerLink="/mailview/{{inbox.id}}">{{inbox.email}}</a>
+
+    </li>
+</ul>
